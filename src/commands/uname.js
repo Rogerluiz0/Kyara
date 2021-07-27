@@ -1,4 +1,8 @@
-const { arch , endianness , platform , type , uptime , version , hostname } = require( 'os' )
+const { 
+  arch, endianness, 
+  platform, type, uptime, 
+  version, hostname 
+} = require('os')
 
 const newDate = new Date()
 const hours = newDate.getHours()
@@ -7,12 +11,15 @@ const seconds = newDate.getSeconds()
 const activeMinutes = parseInt(uptime() / 60)
 
 module.exports = {
-  name: 'os',
-  description: 'Displays operating system information',
+  name: 'uname',
+  description: 'Displays operating system information.',
+
   run: async toolbox => {
     const { table } = toolbox.print
+    const { print } = toolbox
 
-    console.log('\n')
+    print.info('\n')
+
     table(
       [
         ['Property', 'Stats'],
@@ -24,9 +31,7 @@ module.exports = {
         ['Hostname', hostname()],
         ['Uptime', `${activeMinutes} minutos`],
         ['Hours', `${hours} h : ${minutes} m : ${seconds} s`]
-      ],
-      {format: 'markdown'}
+      ], {format: 'markdown'}
     )
-    console.log('\n')
   }
 }

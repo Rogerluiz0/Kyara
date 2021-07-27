@@ -1,8 +1,17 @@
 {
   "name": "kyara",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "kyara CLI",
-  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abantes/kyara.git"
+  },
+  "keywords": ["cli", "gluegun", "linux", "Windows"],
+  "author": {
+    "name": "Roger Luiz",
+    "email": "Rogerluiz010@gmail.com",
+    "url": "https://github.com/abantes"
+  },
   "bin": {
     "kyara": "bin/kyara"
   },

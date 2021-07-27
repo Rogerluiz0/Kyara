@@ -1,65 +1,86 @@
-<h1 align="center">kyara CLI</h1> 
-
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=author&message=roger3g" style="display: inline;"> <img src="https://img.shields.io/static/v1?label=languages&message=2&color=282a36&labelColor=bd93f9" style="display: inline;"> <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=282a36&labelColor=bd93f9" style="display: inline;"> <img src="https://img.shields.io/static/v1?label=npm&message=v0.1.1&color=282a36&labelColor=bd93f9" style="display: inline;"> <img src="https://img.shields.io/static/v1?label=platform&message=Windows|%20MacOS%20|%20Linux&color=282a36&labelColor=bd93f9" style="display: inline;"> <img src="https://img.shields.io/github/last-commit/roger3g/kyara?color=282a36&labelColor=bd93f9" style="display: inline;"> <img src="https://img.shields.io/github/issues/roger3g/kyara?color=282a36&labelColor=bd93f9" style="display: inline;"> <img src="https://img.shields.io/github/forks/roger3g/kyara?color=282a36&labelColor=bd93f9" style="display: inline;"> <img src="https://img.shields.io/github/stars/roger3g/kyara?color=282a36&labelColor=bd93f9" style="display: inline;"> <img src="https://img.shields.io/github/repo-size/roger3g/kyara?color=282a36&labelColor=bd93f9" style="display: inline;">
+  <img alt="Kyara" src=".github/KYARA.svg">
 </p>
 
-<div align="center">
-  <img src=".github/img.png" alt="Print" style="width: 100%;">  
-</div>
+<p align="center">
+  The initiative Kyara
+</p>
 
-## ⚙ Requirements
+<p align="center">
+  <img alt="badge" src="https://img.shields.io/badge/author-abantes-blue">
+  <img alt="badge" src="https://img.shields.io/badge/languages-2-blue">
+  <img alt="badge" src="https://img.shields.io/badge/license-MIT-blue">
+  <img alt="badge" src="https://img.shields.io/badge/vesrion-1.0.0-blue">
+  <img alt="badge" src="https://img.shields.io/badge/platform-Windows-blue">
+  <img alt="badge" src="https://img.shields.io/github/last-commit/abantes/kyara">
+  <img alt="badge" src="https://img.shields.io/github/issues/abantes/kyara">
+  <img alt="badge" src="https://img.shields.io/github/stars/abantes/kyara">
+  <img alt="badge" src="https://img.shields.io/github/forks/abantes/kyara">
+</p>
 
-- [X] [npm](https://www.npmjs.com/)
-- [X] [Node.js](https://nodejs.org/en/)
+---
 
-## 🛠 Technology
+__Project:__ CLI kyara is an initiative to replicate the basic operations of Bash, standard terminal in most Linux distributions. From developer to developer. This cli is developed using [Node.js](https://nodejs.org/en/) with [Gluegun](https://infinitered.github.io/gluegun/#/).
 
-- [Node.js](https://nodejs.org/en/)
-- [Gluegun](https://infinitered.github.io/gluegun/#/)
+## Features
 
-## 💻 Project
+* __📴 Offline Mode.__ Kyara works completely offline;
+* __💾 Filesystem.__ Manipulate files on your system easily;
+* __⚒ System.__ Search for information about the current system;
+* __🗄 Patching.__ Manipulating file contents.
 
-kyara is a CLI (command line interface) in order to automate my daily tasks as a developer.
+## Implementation ideas
 
-## 💡 Implementation ideas
+* [ ] Add new commands;
+* [ ] Fix the bugs;
+* [ ] Refactor the code of the existing commands.
 
-- [ ] Add new commands;
-- [ ] Fix the bugs;
-- [ ] Refactor the code of the existing commands.
+# Why use Kyara?
 
-## ⬇ Installation
+You might want to use Kyara if:
 
-Using npm:
+* You need a command line in windows similar to Bash;
+* You want to have powerful tools at your fingertips;
+* And you don't want to have to do complex installations to have a simple command line.
+
+If so ... welcome!
+
+## Installing Kyara
+
+you can use npm:
 
 ```console
-npm install -g kyara
+npm install --global kyara
 ```
 
-Using yarn:
+Check installation:
 
 ```console
-yarn global add kyara
+kyara --version
 ```
 
-**Note:** I recommend that you install **globally**, so you can use it anywhere on your machine and gluegun does not support installation for specific folders.
+I recommend that you install globally, so you can use it anywhere on your machine and gluegun does not support installation for specific folders.
 
-## 🆘 Commands
+## Using Kyara
 
-To consult the list of commands just type **`kyara -h`** or **`kyara --help`**. <br>
-Detailed command list [here](https://github.com/Rogerluiz0/kyara/blob/master/docs/commands.md).
+Read the [Usage Guide](docs/commands.md) for detailed instructions on how to use Kyara.
 
-## 🤔 How to contribute
+## Contributing to Kyara
+
+Contributions are always welcome, no matter how large or small.
 
 1. Fork this repository;
-2. Create a branch with your feature: **`git checkout -b my-feature`**;
-3. Commit your changes: **`git commit -m 'feat: My new feature'`**;
-4. Push to your branch: **`git push origin my-feature`**.
+2. Create a branch with your feature: `git checkout -b my-feature`;
+3. Commit your changes: `git commit -m 'feat: My new feature'`;
+4. Push to your branch: `git push origin my-feature`.
 
 After the merge of your pull request is done, you can delete your branch.
 
-You can report a bug [here](https://github.com/roger3g/kyara/issues).
+You can report a bug [here](https://github.com/abantes/kyara/issues).
 
-## 📝 License
+## Prior art
 
-This project is under the MIT license. See the archive [LICENSE](LICENSE.md) for more details.
+Kyara wouldn't exist if it wasn't for excellent prior art. Kyara has been inspired by the following projects:
+
+* [npm](https://github.com/npm/cli)
+* [Yarn](https://yarnpkg.com/)
