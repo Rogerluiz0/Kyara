@@ -47,7 +47,7 @@ If so ... welcome!
 
 ## Installing Kyara
 
-you can use npm:
+You can use npm:
 
 ```console
 npm install --global kyara
