@@ -30,6 +30,12 @@ You can get your operating system's memory status with the command:
 kyara free
 ```
 
+You can create folder with the command:
+
+```console
+kyara mkdir [foldername]
+```
+
 You can create files with the command:
 
 ```console
