@@ -31,10 +31,6 @@ __Project:__ CLI kyara is an initiative to replicate the basic operations of Bas
 
 ## Implementation ideas
 
-* [ ] Add new commands;
-* [ ] Fix the bugs;
-* [ ] Refactor the code of the existing commands.
-
 # Why use Kyara?
 
 You might want to use Kyara if:
