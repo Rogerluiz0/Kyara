@@ -29,8 +29,6 @@ __Project:__ CLI kyara is an initiative to replicate the basic operations of Bas
 * __⚒ System.__ Search for information about the current system;
 * __🗄 Patching.__ Manipulating file contents.
 
-## Implementation ideas
-
 # Why use Kyara?
 
 You might want to use Kyara if:
